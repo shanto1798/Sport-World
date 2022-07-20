@@ -1,0 +1,229 @@
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, ol{
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* common css end */
+
+/* banner part start */
+#banner{
+    width: 1112px;
+    height: 545px;
+    background-color: #161616;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 50px auto;
+    position: relative;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.banner_flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner_text h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-top: 60px;
+}
+.banner_text p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+button{
+    border: none;
+    background-color: #DD0000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+button i{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.banner_img img{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+/* banner part end */
+
+/* middle part star */
+#middle_part{
+    margin-left: 120px;
+    display: flex;
+}
+.side_option{
+    background-color: #161616;
+    width: 150px;
+    height: 200px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    position: relative;
+    margin-top: 20px;
+}
+.side_option a{
+    display: inline-block;
+    font-size: 15px;
+    color: #161616;
+    text-align: center;
+}
+.up {
+    position: absolute;
+    top: 30px;
+    left: 9px;
+    color: #FFFFFF !important;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 2px;
+}
+.up{
+    background-color: #DD0000;
+}
+.all {
+    position: absolute;
+    top: 84px;
+    left: 10px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 32px;
+}
+.blog {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    color: #161616;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px 50px;
+}
+.match_itme{
+    width: 312px;
+    height: 210px;
+    background-color: #E8E8E8;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.imgages_flx{
+    display: flex;
+    justify-content: space-between;
+}
+.imgages_flx img{
+    margin: 30px;
+}
+.imgages_flx p{
+    margin-top: 50px;
+}
+.match_text{
+    text-align: center;
+}
+.match_text h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.match_flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* middle part end */
+
+/* footer part start */
+footer{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #161616;
+    margin-top: 100px;
+}
+.footer_text{
+    text-align: center;
+}
+footer h4{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+footer hr{
+    width: 1000px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.footer_flex{
+    width: 750px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.footer_flex p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footer_icon{
+    width: 400px;
+    margin-left: 150px;
+}
+.footer_icon i{
+    padding: 0 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.massenger{
+    text-align: right;
+    margin-right: 50px;
+}
+.massenger i{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.footer_bottom_text{
+    text-align: center;
+}
+.footer_bottom_text p{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+/* footer part end */
